@@ -13,7 +13,7 @@ It will ask you for confirmation. Click on “Shut down”.
 They are very important to your program. A comment is identified with the ‘#’ sign. 
 Examples: 
 
-Print(“I could have comments like this: \n“)  # This comment is on the same line as the code
+    Print(“I could have comments like this: \n“)  # This comment is on the same line as the code
 Console:
 
     I could have comments like this: 
