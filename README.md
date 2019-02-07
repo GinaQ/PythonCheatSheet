@@ -9,7 +9,8 @@ Go to the menu at the top of the left corner.
 Scroll all the way down and double click on shut down.
 It will ask you for confirmation. Click on “Shut down”.
 
-# Comments are used to tell what something does. They are very important to your program. A comment is identified with the ‘#’ sign. 
+# Comments are used to tell what something does. 
+They are very important to your program. A comment is identified with the ‘#’ sign. 
 Examples: 
 
 Print(“I could have comments like this: \n“)  # This comment is on the same line as the code
@@ -64,7 +65,8 @@ Console:
 
 Or utilize predefined functions… 
 
-# Libraries are a collection of predefined functions. Some libraries are inherently available, others must be imported. 
+# Libraries are a collection of predefined functions. 
+Some libraries are inherently available, others must be imported. 
 Examples: 
     # There is no need to import a library for the print function:
     print(“some message”) 
@@ -97,7 +99,8 @@ Console:
 In this example, the while loop will print a message every two seconds  until the program is terminated.
         
 
-# If-Then statements specify an action to perform if a specific condition exists. Although “then” is not actually typed, it is assumed for all code that is indented under the if statement. Else and else-if (elif) can be used to add additional conditions and actions.
+# If-Then statements specify an action to perform if a specific condition exists. 
+Although “then” is not actually typed, it is assumed for all code that is indented under the if statement. Else and else-if (elif) can be used to add additional conditions and actions.
 
 Example: 
     my_age = int(input("How old are you? "))
