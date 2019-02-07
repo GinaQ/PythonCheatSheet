@@ -4,19 +4,19 @@ Review and Cheat Sheet
 
 Download the code example from: https://github.com/GinaQ/PythonCheatSheet.git
 
-#Shutting Down the Raspberry Pi:
+# Shutting Down the Raspberry Pi:
 Go to the menu at the top of the left corner.
 Scroll all the way down and double click on shut down.
 It will ask you for confirmation. Click on “Shut down”.
 
-#Comments are used to tell what something does. They are very important to your program. A comment is identified with the ‘#’ sign. 
+# Comments are used to tell what something does. They are very important to your program. A comment is identified with the ‘#’ sign. 
 Examples: 
-# This comment is on its own line
+
 Print(“I could have comments like this: \n“)  # This comment is on the same line as the code
 Console:
     I could have comments like this: 
 
-#Print a message on the console.
+Print a message on the console.
 Examples:
     print(‘I can use single quotes’)
     print(“I can use double quotes”)
@@ -26,12 +26,13 @@ I can use single quotes
     I can use double quotes
     Double “quotes” within single “quotes” will print the quotation marks
 
-#Variables can make your program easier to understand and to write. 
+# Variables can make your program easier to understand and to write. 
 Examples:
     name = “Ben”
-age = 25
-# Both commas [,] and plus sign [+] will join two parts together
-# Comma adds a space. Plus sign does not add a space
+    age = 25
+
+Both commas [,] and plus sign [+] will join two parts together
+Comma adds a space. Plus sign does not add a space.
     print(“My name is“, name + “. I am“, age, “years old.\n”)
                       ↑      ↑         ↑    ↑
                     space  no space  space space
@@ -40,7 +41,8 @@ Console:
               ↑   ↑     ↑  ↑
             space x   space space
 
-#Functions can also make your program easier to understand and write. Functions do three things: 
+# Functions can also make your program easier to understand and write. 
+Functions do three things: 
 They name pieces of code the way variables name strings and numbers
 They can accept ‘arguments’. Arguments are simply data or variables that are passed into the function
 They can be called numerous times by using the function name (and arguments, if any)
@@ -58,11 +60,11 @@ Examples:
 
 Console: 
     Name: Caesar     Age: 20
-Name: Lucca      Age: 17
+    Name: Lucca      Age: 17
 
 Or utilize predefined functions… 
 
-#Libraries are a collection of predefined functions. Some libraries are inherently available, others must be imported. 
+# Libraries are a collection of predefined functions. Some libraries are inherently available, others must be imported. 
 Examples: 
     # There is no need to import a library for the print function:
     print(“some message”) 
@@ -71,7 +73,7 @@ Examples:
     import time
     time.sleep(1)
 
-#Loops are functions that repeat (iterate) based on a certain condition.
+# Loops are functions that repeat (iterate) based on a certain condition.
 
 Example (for...in range(...) loop):
     # Loop iterates through the range
@@ -95,7 +97,7 @@ Console:
 In this example, the while loop will print a message every two seconds  until the program is terminated.
         
 
-#If-Then statements specify an action to perform if a specific condition exists. Although “then” is not actually typed, it is assumed for all code that is indented under the if statement. Else and else-if (elif) can be used to add additional conditions and actions.
+# If-Then statements specify an action to perform if a specific condition exists. Although “then” is not actually typed, it is assumed for all code that is indented under the if statement. Else and else-if (elif) can be used to add additional conditions and actions.
 
 Example: 
     my_age = int(input("How old are you? "))
@@ -115,8 +117,8 @@ Example:
         print("That’s impossible!")
 
 Console: 
-How old are you? 3
-You are a toddler
+    How old are you? 3
+    You are a toddler
 
 
 
