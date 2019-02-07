@@ -10,15 +10,16 @@ Scroll all the way down and double click on shut down.
 It will ask you for confirmation. Click on “Shut down”.
 
 # Comments are used to tell what something does. 
-They are very important to your program. A comment is identified with the ‘#’ sign. 
+They are very important to your program. A comment is identified with the ‘#’ sign.<br> 
 Examples: 
 
+    # This comment is above the code
     print(“I could have comments like this: \n“)  # This comment is on the same line as the code
 Console:
 
     I could have comments like this: 
 
-Print a message on the console.
+Print a message on the console.<br>
 Examples:
 
     print(‘I can use single quotes’)
@@ -30,13 +31,13 @@ Console:
     I can use double quotes
     Double “quotes” within single “quotes” will print the quotation marks
 
-# Variables can make your program easier to understand and to write. 
+# Variables can make your program easier to understand and to write. <br>
 Examples:
 
     name = “Ben”
     age = 25
 
-Both commas [,] and plus sign [+] will join two parts together
+Both commas [,] and plus sign [+] will join two parts together. <br>
 Comma adds a space. Plus sign does not add a space.
 
     print(“My name is“, name + “. I am“, age, “years old.\n”)
@@ -49,12 +50,12 @@ Console:
             space x   space space
 
 # Functions can also make your program easier to understand and write. 
-Functions do three things: 
-They name pieces of code the way variables name strings and numbers
-They can accept ‘arguments’. Arguments are simply data or variables that are passed into the function
-They can be called numerous times by using the function name (and arguments, if any)
+Functions do three things: <br>
+They name pieces of code the way variables name strings and numbers. <br>
+They can accept ‘arguments’. Arguments are simply data or variables that are passed into the function <br>
+They can be called numerous times by using the function name (and arguments, if any) <br>
 
-You can create your own functions… 
+You can create your own functions… <br>
 
 Examples:
 
@@ -74,7 +75,7 @@ Console:
 Or utilize predefined functions… 
 
 # Libraries are a collection of predefined functions. 
-Some libraries are inherently available, others must be imported. 
+Some libraries are inherently available, others must be imported. <br>
 Examples: 
 
     # There is no need to import a library for the print function:
@@ -113,7 +114,7 @@ Console:
         
 
 # If-Then statements specify an action to perform if a specific condition exists. 
-Although “then” is not actually typed, it is assumed for all code that is indented under the if statement. Else and else-if (elif) can be used to add additional conditions and actions.
+Although “then” is not actually typed, it is assumed for all code that is indented under the if statement. Else and else-if (elif) can be used to add additional conditions and actions. <br>
 
 Example: 
 
