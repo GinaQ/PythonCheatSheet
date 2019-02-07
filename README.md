@@ -19,7 +19,7 @@ Console:
 
     I could have comments like this: 
 
-Print a message on the console.<br>
+# Print a message on the console.<br>
 Examples:
 
     print(‘I can use single quotes’)
